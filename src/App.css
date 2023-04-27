@@ -1,0 +1,11 @@
+.header {
+    padding: 10px;
+    display: flex;
+    height: 2em;
+    background: wheat;
+}
+
+.header__menu_img {
+    width: 64px;
+    height: 64px;
+}
