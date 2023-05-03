@@ -17,44 +17,33 @@ import {
     TASK,
     TASKS_ROUTE
 } from "../../constants/constants";
-import {CustomButton} from "./CustomButton";
+import {GreyButton} from "./CustomButton";
+
+const Li = ({path, text}) => {
+    return (
+        <li className="">
+            <NavLink to={path} className="inline-block px-2 py-2 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-blue-600 dark:hover:text-gray-300">{text}</NavLink>
+        </li>
+    )
+}
 
 export const NavigationBar = () => {
 
     return (
         <>
-            <div className="navbar__wrapper">
-                    <div className="navbar__link_wrapper">
-                        <ul className="nav__link">
-                            <NavLink to={TASKS_ROUTE} className="nav__link_text">{TASK}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={CLIENT_ROUTE} className="nav__link_text">{CLIENT}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={CREDIT_AND_CARDS_ROUTE} className="nav__link_text">{CREDIT_AND_CARDS}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={EMPLOYMENT_ROUTE} className="nav__link_text">{EMPLOYMENT}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={HISTORY_ROUTE} className="nav__link_text">{HISTORY}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={RELATED_CONTRACTS_ROUTE} className="nav__link_text">{RELATED_CONTRACTS}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={COURT_CASE_ROUTE} className="nav__link_text">{COURT_CASE}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={ENFORCEMENT_PROCEEDINGS_ROUTE} className="nav__link_text">{ENFORCEMENT_PROCEEDINGS}</NavLink>
-                        </ul>
-                        <ul className="nav__link">
-                            <NavLink to={PROCESS_ROUTE} className="nav__link_text">{PROCESS}</NavLink>
-                        </ul>
-                    </div>
-
-                <CustomButton>{BACK_BUTTON_TEXT}</CustomButton>
+            <div className="flex justify-between flex-wrap items-center">
+                <ul className="flex font-medium p-4 md:p-0 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                    <Li path={TASKS_ROUTE} text={TASK} />
+                    <Li path={CLIENT_ROUTE} text={CLIENT} />
+                    <Li path={CREDIT_AND_CARDS_ROUTE} text={CREDIT_AND_CARDS} />
+                    <Li path={EMPLOYMENT_ROUTE} text={EMPLOYMENT} />
+                    <Li path={HISTORY_ROUTE} text={HISTORY} />
+                    <Li path={RELATED_CONTRACTS_ROUTE} text={RELATED_CONTRACTS} />
+                    <Li path={COURT_CASE_ROUTE} text={COURT_CASE} />
+                    <Li path={ENFORCEMENT_PROCEEDINGS_ROUTE} text={ENFORCEMENT_PROCEEDINGS} />
+                    <Li path={PROCESS_ROUTE} text={PROCESS} />
+                </ul>
+                <GreyButton>{BACK_BUTTON_TEXT}</GreyButton>
             </div>
             <Outlet />
         </>
