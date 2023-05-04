@@ -1,6 +1,7 @@
-import {useState} from "react";
-import CustomSearch from "./customSearch";
-import {HEADER_SEARCH_LABEL} from "../../constants/constants";
+import React, {useState} from "react";
+import {HEADER_SEARCH_LABEL, HEADER_SEARCH_PLACEHOLDER} from "../../static/ru";
+import {Label} from "./Label";
+import {Input} from "./Inputs";
 export const Header = () => {
     const [visible, setVisible] = useState(false)
     const name = "Tokhirbek";
@@ -15,7 +16,10 @@ export const Header = () => {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                 </svg>
             </button>
-            <CustomSearch label={HEADER_SEARCH_LABEL} />
+            <div className="flex items-center">
+                <Label>{HEADER_SEARCH_LABEL}</Label>
+                <Input placeholder={HEADER_SEARCH_PLACEHOLDER} type="tel" />
+            </div>
             <div className="flex items-center">
                 <span>{name}</span>
                 <svg className="w-8 h-8 dark:text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

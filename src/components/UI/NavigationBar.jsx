@@ -2,21 +2,28 @@ import {NavLink, Outlet} from "react-router-dom";
 import {
     BACK_BUTTON_TEXT,
     CLIENT,
-    CLIENT_ROUTE,
     COURT_CASE,
-    COURT_CASE_ROUTE,
     CREDIT_AND_CARDS,
-    CREDIT_AND_CARDS_ROUTE,
     EMPLOYMENT,
-    EMPLOYMENT_ROUTE, ENFORCEMENT_PROCEEDINGS,
-    ENFORCEMENT_PROCEEDINGS_ROUTE,
+    ENFORCEMENT_PROCEEDINGS,
     HISTORY,
-    HISTORY_ROUTE, PROCESS,
-    PROCESS_ROUTE, RELATED_CONTRACTS,
-    RELATED_CONTRACTS_ROUTE,
+    PROCESS,
+    RELATED_CONTRACTS,
     TASK,
+} from "../../static/ru";
+
+import {
+    CLIENT_ROUTE,
+    COURT_CASE_ROUTE,
+    CREDIT_AND_CARDS_ROUTE,
+    EMPLOYMENT_ROUTE,
+    ENFORCEMENT_PROCEEDINGS_ROUTE,
+    HISTORY_ROUTE,
+    PROCESS_ROUTE,
+    RELATED_CONTRACTS_ROUTE,
     TASKS_ROUTE
-} from "../../constants/constants";
+} from "../../static/constants"
+
 import {GreyButton} from "./CustomButton";
 
 const Li = ({path, text}) => {

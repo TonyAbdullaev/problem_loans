@@ -25,7 +25,20 @@ G
 src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 J
 src/constants/constants.js,0\3\037a986b1505dda68516a7f7fa3f88d6521ccf58
-S
-#src/components/UI/NavigationBar.jsx,a\a\aa783c73657d29c0f1c52c52cc85835ab4fbfea8
 E
 src/hooks/useInput.js,8\6\86e9d2ff52233ab1237fc6217f58fd735b3b0af8
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+:
+
+src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
+H
+src/Router/AppRouter.jsx,c\d\cdbdf0652c5334a7f9a389ffbd535bdcee0fb5d0
+B
+src/pages/Home.jsx,4\3\430200dcc19df010a7afe234d14af8f3c4a0b33b
+=
+src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+B
+tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
+<
+src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d

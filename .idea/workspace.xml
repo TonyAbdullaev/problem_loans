@@ -5,45 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df060ac-741a-4e98-9208-51f51cb9705e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Headings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Inputs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Label.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36d52156ebd6b47e0b64702da6c778acb8d2c02d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3df9d03b0aed2f145881eec31e6f23d65a40c5e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/430200dcc19df010a7afe234d14af8f3c4a0b33b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81b99f9f63dd56b6fd34467fd593322b3600e9c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a8ed9d97d22bcb6cf4a36e559d37b15e60872d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3eb484780a8edb65702eb3b2572f101aaf4032c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c606aa6cc9d93ee305019b15b0dfa63ec99dde11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce17a00e2a121080420017a02584f6c4e4b2aeed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da3d60410e083ae8e546b03f95ca731c3fd6f488" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e368f381204e8242d5bd36712c665019bec80dc4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Tab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa783c73657d29c0f1c52c52cc85835ab4fbfea8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/6/36d52156ebd6b47e0b64702da6c778acb8d2c02d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3df9d03b0aed2f145881eec31e6f23d65a40c5e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/430200dcc19df010a7afe234d14af8f3c4a0b33b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81b99f9f63dd56b6fd34467fd593322b3600e9c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4a8ed9d97d22bcb6cf4a36e559d37b15e60872d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3eb484780a8edb65702eb3b2572f101aaf4032c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c606aa6cc9d93ee305019b15b0dfa63ec99dde11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce17a00e2a121080420017a02584f6c4e4b2aeed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/a/da3d60410e083ae8e546b03f95ca731c3fd6f488" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e368f381204e8242d5bd36712c665019bec80dc4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa783c73657d29c0f1c52c52cc85835ab4fbfea8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/CustomButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/CustomButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router/AppRouter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Label.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/NavigationBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/customSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/customSearch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Client.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Client.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/customSearch.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
         <option value="com.haulmont.rcb.arrow_function_component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -120,7 +94,8 @@
       <workItem from="1682663340271" duration="5818000" />
       <workItem from="1682917872660" duration="10151000" />
       <workItem from="1683020130564" duration="1679000" />
-      <workItem from="1683098816237" duration="8061000" />
+      <workItem from="1683098816237" duration="8398000" />
+      <workItem from="1683176760557" duration="1642000" />
     </task>
     <servers />
   </component>

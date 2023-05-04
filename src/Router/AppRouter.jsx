@@ -10,7 +10,7 @@ import {
     PROCESS_ROUTE,
     RELATED_CONTRACTS_ROUTE,
     TASKS_ROUTE
-} from "../constants/constants";
+} from "../static/constants";
 
 import Home from "../pages/Home";
 import Tasks from "../pages/Tasks";
